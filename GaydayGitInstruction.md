@@ -150,7 +150,7 @@ Print the following commands:
 
 > It is important to add the changes and to make a ***git commit*** command before moving to another side branch!
 
-* ***git push --set -upstream origin branch_name*** - is to push the current branch and set the remote as upstream. In other words we create the same branch that was used for changes on the local repository for further ***git push***.
+* ***git push --set-upstream origin branch_name*** - is to push the current branch and set the remote as upstream. In other words we create the same branch that was used for changes on the local repository for further ***git push***.
 
 * ***git push -u origin*** - is used to track remote branch from origin.
 
