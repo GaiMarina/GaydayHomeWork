@@ -159,6 +159,9 @@ Print the following commands:
 * ***git log --all--oneline*** - helps to watch all the branches with all the commits and messages that were done.
  * ***git checkout branch_name^*** - to go to the penultimate commit of the branch.
 
+ ***
+ [The most frequent questions on Git ](https://gb.ru/posts/soveti-pro-git)
+
 
 
 
