@@ -53,7 +53,7 @@ Without **git add**, no **git commit** command would ever do anything!
 
 14. Don't forget to use **Ctrl + S** buttons to save all the changes in file before **git add** command. 
 
->> The white point ⏺ after the file name remind you about it.
+>> The white dot key ⏺ after the file name remind you about it.
 
 15. **git --version** command is to check the current version of Git. 
 
@@ -122,6 +122,45 @@ Print the following commands:
 ### Git simulator.
 
 <https://learngitbranching.js.org/>
+
+## The main commands and keys used for [GitHub](https://github.com).
+
+* ***git clone remote_repository_link*** - the command used to create a copy of a specific remote repository within a local one.
+
+* ***cd folder_name*** - to change directory to go to another folder.
+> One can use the ***Tab key*** after pressing the first few characters (this will then "fill in" the rest of the folder.
+
+* ***git push*** - is used to push the local repository content to a remote repository. 
+
+> While pushing authorization is required!
+
+* ***git pull*** - fetches content from the remote repository and merges the changes with the local one. 
+
+* ***pull request*** - is an event in Git where a contributor asks a maintainer of a Git repository to review code they want to merge into a project. 
+
+* ***git branch -M branch_name*** - is to set the master/main branch: one and the same one, for local and remote repositories.
+
+> One and the same local repositary can be connected with one and same remote repository!
+
+* ***README.md*** - the folder that contains all the useful information about your project: description, aims, team members, etc.
+
+***CTRL + Z*** - is used to reverse one or several file changes to remove a white dot ⏺ file status when it is necessary.
+
+* ***git checkout -b branch_name*** - is to set and move to a side branch.
+
+> It is important to add the changes and make a ***git commit*** command before moving to another side branch!
+
+* ***git push --set -upstream origin branch_name*** - is to push the current branch and set the remote as upstream. In other words we create the same branch that was used for changes on the local repository for further ***git push***.
+
+* ***git push -u origin*** - is used to set up one and the same branch_name as the main for both: local and remote repositories. 
+
+* ***git any_command --help*** - is used to get the help page for the command.
+
+* ***git log --all--oneline*** - helps to watch all the branches with all the commits and messages that were done.
+ * ***git checkout branch_name^*** - to go to the penultimate commit of the branch.
+
+
+
 
 
 
