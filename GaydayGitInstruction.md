@@ -117,4 +117,11 @@ Print the following commands:
 
 ***git log --graph*** - creates a graphic overview of the logs and of how various pipelines have branched and merged over time.
 
-## More of the Version Control
+***
+
+### Git simulator.
+
+<https://learngitbranching.js.org/>
+
+
+
